@@ -2,8 +2,26 @@
     border: 1px solid gray;
 }
 
+nav{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+nav a {
+    padding: 1rem;
+    
+}
+
+a{
+    display: flex;
+    justify-content: space-between;
+}
+
 body{
-    width: 100%; 
+    width: 100%;
 }
 
 .aboutUsTeam{
@@ -12,7 +30,32 @@ body{
     align-items: center;
 }
 
+img{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+/*ios Team */
 .iosTeam{
     display: flex;
-    /*align-content: center;*/
+}   
+ h3{
+    display: flex;
+    justify-content: center;
+}
+
+/*Backend Team*/
+.backendTeam{
+    display: flex;
+}
+
+/*marketing Team*/
+.marketingTeam{
+    display: flex;
+}
+
+/*Frontend Team*/
+.frontendTeam{
+    display: flex;
 }
