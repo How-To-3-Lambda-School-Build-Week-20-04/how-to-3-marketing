@@ -9,6 +9,7 @@ html {
 
 h2 {
     font-size: 150%;
+    text-decoration: underline;
 }
 
 
@@ -16,6 +17,7 @@ h2 {
     margin: 0% 5%;
     text-align: center;
     background-color: #f7f7e2;
+    border-radius: 15px;
 }
 
 header {
@@ -23,6 +25,9 @@ header {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    border: 1px dashed black;
+    border-style: none none dashed none;
+    padding: 1% 0%;
 }
 
 nav {
@@ -40,6 +45,7 @@ nav a {
 
 .heroImg {
     background-image: url("/photos/hero.jpg");
+    border-radius: 10px;
     height: 500px; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -48,7 +54,7 @@ nav a {
     flex-direction: column;
     justify-content: space-around;
     color: cornsilk;
-    margin: 1%;
+    margin: 2% 1%;
 }
 
 
@@ -64,6 +70,9 @@ nav a {
 .mainDetails {
     margin: 0% 4%;
     font-size: 105%;
+    border: 4px dashed black;
+    border-style: dashed none dashed none;
+    padding: 2%;
 }
 
 .contentContainer {
@@ -75,6 +84,7 @@ nav a {
 
 .content {
     border: 1px solid black;
+    border-radius: 5px;
     margin: 2%;
     padding: 1%;
 }
