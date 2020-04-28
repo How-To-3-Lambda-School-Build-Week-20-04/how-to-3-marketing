@@ -7,6 +7,10 @@ html {
 
 }
 
+h2 {
+    font-size: 150%;
+}
+
 
 .wrapper {
     margin: 0% 5%;
@@ -47,10 +51,20 @@ nav a {
     margin: 1%;
 }
 
+
+.heroImg p {
+    font-size: 110%;
+    margin: 0% 4%;
+}
+
 .heroImg h3 {
     font-size: 200%;
 }
 
+.mainDetails {
+    margin: 0% 4%;
+    font-size: 105%;
+}
 
 .contentContainer {
     margin: 1%;
@@ -61,4 +75,16 @@ nav a {
 
 .content {
     border: 1px solid black;
+    margin: 2%;
+    padding: 1%;
+}
+
+.content h3 {
+    font-size: 115%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.content p {
+ 
 }
