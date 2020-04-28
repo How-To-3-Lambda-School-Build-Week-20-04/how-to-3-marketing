@@ -1,3 +1,28 @@
+header {
+    margin: 1%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border: 2px dashed black;
+    border-style: none none dashed none;
+    padding: 1% 0%;
+    background-color: #f7f7e2;
+    border-radius: 10px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    font-size: 150%;
+    font-weight: bold;
+    text-decoration: none;
+    color: #4f4e47;
+}
+
 .sticky {
     position: fixed;
     top: 0;
@@ -5,7 +30,6 @@
 
   }
   
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
+.sticky + .content {
     padding-top: 60px;
   }

@@ -46,30 +46,6 @@ h2 {
     border-radius: 15px;
 }
 
-header {
-    margin: 1%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    border: 1px dashed black;
-    border-style: none none dashed none;
-    padding: 1% 0%;
-    background-color: #f7f7e2;
-}
-
-nav {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-
-nav a {
-    font-size: 150%;
-    font-weight: bold;
-    text-decoration: none;
-    color: #4f4e47;
-}
-
 .heroImg {
     background-image: url("/photos/hero.jpg");
     border-radius: 10px;
