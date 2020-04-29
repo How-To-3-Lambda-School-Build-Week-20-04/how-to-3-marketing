@@ -27,79 +27,24 @@ html{
     font-family: 'Oswald', sans-serif;
 }
 
-h1, h2, h3 {
+h1{
     display: flex;
     justify-content: center;
-    font-size: 150%;
+    font-size: 250%;
     padding: 1rem;
 }
 
-body{
-    width: 100%;
-}
-
-.aboutUsHeader{
-    font-size: 170%;
-}
-
-.aboutUsTeam{
+ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.teamMember img{
-    display: flex;
-    justify-content: center;
-    border-radius: 50%;
-    width: 30%;
-    padding: 3%;
-}
-
-.teamMember img:hover{
-    /*background: url("https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png");*/
-    opacity: 0.5;
-    border-radius: 50%;
-    width: 30%;
-}
-
-h3{
-    display: flex;
-    justify-content: center;
-    
-}
-
-.teamMember, a{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    color: #f7f7e2; 
+    list-style: none;
+    font-size: 200%;
 }
 
 p{
-    width: 55%;
-    background: #f7f7e2;
-    border-radius: 10px;
-    display: flex;
-    align-content: center;
-}
-
-/*ios Team */
-.iosTeam{
-    display: flex;
-}   
- 
-
-/*Backend Team*/
-.backendTeam{
-    display: flex;
-}
-
-/*marketing Team*/
-.marketingTeam{
-    display: flex;
-}
-
-/*Frontend Team*/
-.frontendTeam{
-    display: flex;
+    color:black;
+    font-size: 80%;
+    width: 30%;
 }
