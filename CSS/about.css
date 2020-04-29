@@ -103,3 +103,11 @@ p{
 .frontendTeam{
     display: flex;
 }
+
+
+@media(max-width: 500px){
+
+    .aboutUsHeader{
+        font-size: 100%;
+    }
+}
