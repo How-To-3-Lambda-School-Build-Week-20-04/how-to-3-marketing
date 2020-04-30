@@ -148,18 +148,24 @@ h2 {
     display: table;
 }
   
-  .container img {
+.container img {
     float: center;
     margin-right: 20px;
     border-radius: 50%;
-  }
+}
   
-  .container span {
+.container span {
     font-size: 20px;
     margin-right: 15px;
-  }
+}
   
-  @media (max-width: 500px) {
+@media (max-width: 750px) {
+
+    .lowerHalf {
+        display: flex;
+        flex-direction: column;
+    }
+
     .container {
       text-align: center;
     }
@@ -169,4 +175,4 @@ h2 {
       float: none;
       display: block;
     }
-  }
+}
