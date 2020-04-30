@@ -1,8 +1,9 @@
 header {
     margin: 1%;
     display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border: 2px dashed black;
     border-style: none none dashed none;
     padding: 1% 0%;
@@ -40,11 +41,3 @@ nav a {
     padding-top: 60px;
   }
 
-  @media(max-width: 500px){
-    
-    header {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  }
