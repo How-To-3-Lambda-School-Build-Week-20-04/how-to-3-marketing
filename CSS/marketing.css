@@ -104,6 +104,8 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    border: 2px solid #ccc;
+    background-color: #eee;
 }
 
 .lowerHalf {
@@ -114,11 +116,17 @@ h2 {
     font-size: 400%;
 }
 
+.lowerHalf h3 {
+    font-size: 250%;
+    margin: 2%;
+}
+
 .content {
     /* border: 1px dashed black; */
     border-radius: 5px;
     margin: 2%;
     padding: 1%;
+    /* background-color: white; */
 }
 
 
