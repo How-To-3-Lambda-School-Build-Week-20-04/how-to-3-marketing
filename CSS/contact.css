@@ -17,6 +17,10 @@ h1 {
     border-radius: 15px;
 }
 
+#googleMap {
+  margin: 0% 10%;
+}
+
 .wrapper h2 {
     border: 1px solid black;
     border-style: solid none none none;
