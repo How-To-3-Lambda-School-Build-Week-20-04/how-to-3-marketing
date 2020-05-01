@@ -1,7 +1,7 @@
 html {
 
     background-color: @backColor;
-    font-family: @font;
+    .font();
 
 }
 
@@ -52,6 +52,18 @@ h2 {
                 line-height: 1em;
             }
 
+            @media (max-width: 1275px) {
+                font-size: 700%;
+            }
+
+            @media (max-width: 990px) {
+                font-size: 500%;
+            }
+
+            @media @mobile {
+                font-size: 300%;
+            }
+
         }
 
 
@@ -83,6 +95,10 @@ h2 {
 
         h2 {
             font-size: 400%;
+
+            @media (max-width: 990px) {
+                font-size: 250%;
+            }
         }
 
         h3 {
