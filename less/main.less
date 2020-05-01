@@ -1,0 +1,148 @@
+html {
+
+    background-color: @backColor;
+    font-family: @font;
+
+}
+
+h2 {
+    font-size: 150%;
+    text-decoration: underline;
+}
+
+
+.wrapper {
+    margin: 0% 5%;
+    text-align: center;
+    background-color: @accentColor;
+    border-radius: 15px;
+
+    .heroImg {
+        background-image: url("/photos/hero2.jpg");
+        border-radius: 10px;
+        height: 800px; 
+        background-position: center; 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: cornsilk;
+        margin: 2% 1%;
+
+        .mane {
+            position: relative;
+            font-weight: 200;
+            font-size: 900%;
+
+
+            .text-wrapper {
+                position: relative;
+                display: inline-block;
+                padding-top: 0.2em;
+                padding-right: 0.05em;
+                padding-bottom: 0.1em;
+                overflow: hidden;
+            }
+
+
+            .letters {
+                transform-origin: 50% 100%;
+                display: inline-block;
+                line-height: 1em;
+            }
+
+        }
+
+
+        h3 {
+            font-size: 200%;
+        }
+        
+    }
+    
+
+
+    .bottom {
+        margin: 2%;
+        width: 100%;
+    }
+
+    .contentContainer {
+        margin: 1%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .border(2px, solid, #ccc);
+        background-color: #eee;
+    }
+
+    .lowerHalf {
+        display: flex;
+
+
+        h2 {
+            font-size: 400%;
+        }
+
+        h3 {
+            font-size: 250%;
+            margin: 2%;
+        }
+
+        @media (max-width: 750px) {
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+
+    .content {
+        /* border: 1px dashed black; */
+        border-radius: 5px;
+        margin: 2%;
+        padding: 1%;
+        /* background-color: white; */
+    }
+    
+    
+    .testimonials {
+        margin: 2% 5%;
+    }
+    
+    .container {
+        border: 2px solid #ccc;
+        background-color: #eee;
+        border-radius: 5px;
+        padding: 16px;
+        margin: 16px 0;
+
+        @media (max-width: 750px) {
+            text-align: center;
+        }
+    } 
+      
+    .container::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+      
+    .container img {
+        float: center;
+        margin-right: 20px;
+        border-radius: 50%;
+
+        @media (max-width: 750px) {
+            margin: auto;
+            float: none;
+            display: block;
+        }        
+    }
+      
+    .container span {
+        font-size: 20px;
+        margin-right: 15px;
+    }
+
+}
